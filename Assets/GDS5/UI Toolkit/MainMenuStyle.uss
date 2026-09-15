@@ -1,0 +1,42 @@
+:root {
+}
+
+.header {
+    -unity-text-outline-color: rgb(255, 0, 40);
+    font-size: 40px;
+    color: rgb(255, 121, 121);
+    text-shadow: 3.8px 3.7px 0 rgb(0, 0, 0);
+    -unity-text-outline-width: 2px;
+    -unity-font-definition: url("project://database/Assets/GDS5/Fonts/heavy%20heap%20rg.otf?fileID=12800000&guid=59684bb6e19de9544971e5f220c18e79&type=3#heavy heap rg");
+}
+
+.button {
+    width: 220px;
+    height: 60px;
+    align-self: center;
+    justify-content: flex-start;
+    align-items: auto;
+    display: flex;
+    -unity-font-definition: url("project://database/Assets/GDS5/Fonts/heavy%20heap%20rg.otf?fileID=12800000&guid=59684bb6e19de9544971e5f220c18e79&type=3#heavy heap rg");
+    font-size: 40px;
+    color: rgb(255, 208, 0);
+    -unity-text-outline-color: rgb(0, 0, 0);
+    -unity-text-outline-width: 2px;
+    text-shadow: 1.3px 3.9px 0 rgb(36, 36, 36);
+    background-color: rgb(255, 42, 49);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-position-y: center;
+    -unity-slice-type: sliced;
+}
