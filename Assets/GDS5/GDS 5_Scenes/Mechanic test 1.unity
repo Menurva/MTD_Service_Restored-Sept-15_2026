@@ -16516,12 +16516,12 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2911896406129550868, guid: aae3238b07c8b174db848d6bfdc19718, type: 3}
-      propertyPath: m_Layer
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 2911896406129550868, guid: aae3238b07c8b174db848d6bfdc19718, type: 3}
       propertyPath: m_Name
       value: Land Scene
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911896406129550868, guid: aae3238b07c8b174db848d6bfdc19718, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3340544306626934918, guid: aae3238b07c8b174db848d6bfdc19718, type: 3}
       propertyPath: m_TreeDistance
@@ -19203,13 +19203,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1701215257}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.14780942, z: 0, w: 0.9890159}
-  m_LocalPosition: {x: 5172.619, y: -2.3209999, z: -1034.588}
-  m_LocalScale: {x: 138.7, y: 12, z: 147.4}
+  m_LocalRotation: {x: -0, y: 0.42119303, z: -0, w: 0.90697104}
+  m_LocalPosition: {x: 4345, y: -0.8, z: -90}
+  m_LocalScale: {x: 86.1, y: 12, z: 86.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 390563121}
-  m_LocalEulerAnglesHint: {x: 0, y: 17, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 49.82, z: 0}
 --- !u!114 &1701215262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32020,6 +32020,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7344949737481328473}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &887766554433221100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4848770405741801610}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca7de3aefa901374ba29464584a3109a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineDecollider
+  CameraRadius: 0.6
+  Decollision:
+    Enabled: 0
+    ObstacleLayers:
+      serializedVersion: 2
+      m_Bits: 8
+    UseFollowTarget:
+      Enabled: 0
+      YOffset: 0
+    Damping: 0.5
+    SmoothingTime: 0
+  TerrainResolution:
+    Enabled: 1
+    TerrainLayers:
+      serializedVersion: 2
+      m_Bits: 8
+    MaximumRaycast: 50
+    Damping: 0.5
 --- !u!4 &889162760816247718
 Transform:
   m_ObjectHideFlags: 0
@@ -69500,33 +69530,3 @@ SceneRoots:
   - {fileID: 2083353702012752199}
   - {fileID: 713813055}
   - {fileID: 4511847315704801205}
---- !u!114 &887766554433221100
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4848770405741801610}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca7de3aefa901374ba29464584a3109a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineDecollider
-  CameraRadius: 0.6
-  Decollision:
-    Enabled: 0
-    ObstacleLayers:
-      serializedVersion: 2
-      m_Bits: 8
-    UseFollowTarget:
-      Enabled: 0
-      YOffset: 0
-    Damping: 0.5
-    SmoothingTime: 0
-  TerrainResolution:
-    Enabled: 1
-    TerrainLayers:
-      serializedVersion: 2
-      m_Bits: 8
-    MaximumRaycast: 50
-    Damping: 0.5
